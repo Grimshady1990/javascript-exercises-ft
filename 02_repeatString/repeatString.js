@@ -11,6 +11,8 @@ const repeatString = function(string, num) {
 
 repeatString("hey", 3);
 repeatString("hello", 10);
+repeatString("hi", 2);
+repeatString("bye", 1);
 
 
 
