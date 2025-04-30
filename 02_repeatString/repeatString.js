@@ -1,15 +1,17 @@
-const repeatString = function() {
-    
-    let heyString = "";
-    let i = 0;
-    for (i = 0; i < 3; i++) {
-        heyString = heyString.concat("hey");
-    }
-    return heyString;
+const repeatString = function(string, num) {
 
+    let globalString = "";
     
-       
-} 
+    for (let i = 0; i < num; i++) {
+  
+        globalString = globalString.concat(string);
+    }
+    return globalString;
+}
+
+repeatString("hey", 3);
+
+
 
 
 
