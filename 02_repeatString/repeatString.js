@@ -10,6 +10,7 @@ const repeatString = function(string, num) {
 }
 
 repeatString("hey", 3);
+repeatString("hello", 10);
 
 
 
