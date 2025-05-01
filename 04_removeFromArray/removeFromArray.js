@@ -1,9 +1,8 @@
-const removeFromArray = function(array, num) {
-
-    const index = array.indexOf(num);
-    if (index > -1) {
-        array.splice(index, 1);
-    }
+const removeFromArray = function(array, ...num) {
+    num.forEach(x => {
+        let index = array.indexOf(x);
+        if (index !== -1) array.splice(index, 1);
+    });
     return array;
 }
 
