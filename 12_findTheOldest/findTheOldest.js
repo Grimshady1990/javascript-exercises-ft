@@ -1,9 +1,10 @@
 const findTheOldest = function(people) {
     //let personAge = people.forEach(person => person.yearOfDeath - person.yearOfBirth);
 
-    if (typeof people[0].yearOfDeath === undefined){
-        for (let i )
-    }
+    if (people.yearOfDeath !== people.yearOfDeath){
+        people.push({yearOfDeath: 2025});
+        
+    } 
 
 
     const oldestPerson = people.reduce((max, person) => 
